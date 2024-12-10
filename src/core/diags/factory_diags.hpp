@@ -249,9 +249,6 @@ private:
     void ResetTxPacket(void);
     void OutputStats(void);
 
-    static Error ParseLong(char *aString, long &aLong);
-    static Error ParseBool(char *aString, bool &aBool);
-
     static const struct Command sCommands[];
 
 #if OPENTHREAD_FTD || OPENTHREAD_MTD || (OPENTHREAD_RADIO && OPENTHREAD_RADIO_CLI)
