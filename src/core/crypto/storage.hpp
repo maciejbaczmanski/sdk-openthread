@@ -115,6 +115,7 @@ public:
         kPendingDatasetNetworkKey = 5,
         kPendingDatasetPskc       = 6,
         kEcdsa                    = 7,
+        kPskd                     = 8,
     };
 
     /**
